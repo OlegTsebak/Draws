@@ -41,10 +41,6 @@ namespace Draws.Android
 			global::ColorPicker.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::ColorPicker.Droid.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::ColorPicker.Droid.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::ColorPicker.Droid.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::ColorPicker.Droid.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::ColorPicker.Droid.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::ColorPicker.Droid.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::ColorPicker.Droid.Resource.Animator.design_appbar_state_list_animator = global::Draws.Android.Resource.Animator.design_appbar_state_list_animator;
 			global::ColorPicker.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Draws.Android.Resource.Animator.design_fab_hide_motion_spec;
 			global::ColorPicker.Droid.Resource.Animator.design_fab_show_motion_spec = global::Draws.Android.Resource.Animator.design_fab_show_motion_spec;
@@ -1240,7 +1236,6 @@ namespace Draws.Android
 			global::ColorPicker.Droid.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::ColorPicker.Droid.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::ColorPicker.Droid.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::ColorPicker.Droid.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::ColorPicker.Droid.Resource.Layout.browser_actions_context_menu_page = global::Draws.Android.Resource.Layout.browser_actions_context_menu_page;
 			global::ColorPicker.Droid.Resource.Layout.browser_actions_context_menu_row = global::Draws.Android.Resource.Layout.browser_actions_context_menu_row;
 			global::ColorPicker.Droid.Resource.Layout.design_bottom_navigation_item = global::Draws.Android.Resource.Layout.design_bottom_navigation_item;
@@ -1256,7 +1251,6 @@ namespace Draws.Android
 			global::ColorPicker.Droid.Resource.Layout.design_navigation_item_subheader = global::Draws.Android.Resource.Layout.design_navigation_item_subheader;
 			global::ColorPicker.Droid.Resource.Layout.design_navigation_menu = global::Draws.Android.Resource.Layout.design_navigation_menu;
 			global::ColorPicker.Droid.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
-			global::ColorPicker.Droid.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::ColorPicker.Droid.Resource.Layout.mtrl_layout_snackbar = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar;
 			global::ColorPicker.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar_include;
 			global::ColorPicker.Droid.Resource.Layout.notification_action = global::Draws.Android.Resource.Layout.notification_action;
@@ -1274,11 +1268,9 @@ namespace Draws.Android
 			global::ColorPicker.Droid.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::ColorPicker.Droid.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::ColorPicker.Droid.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::ColorPicker.Droid.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::ColorPicker.Droid.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::ColorPicker.Droid.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::ColorPicker.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::ColorPicker.Droid.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::ColorPicker.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::ColorPicker.Droid.Resource.String.abc_action_bar_home_description = global::Draws.Android.Resource.String.abc_action_bar_home_description;
 			global::ColorPicker.Droid.Resource.String.abc_action_bar_up_description = global::Draws.Android.Resource.String.abc_action_bar_up_description;
@@ -2572,10 +2564,6 @@ namespace Draws.Android
 			global::Rg.Plugins.Popup.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Rg.Plugins.Popup.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::Rg.Plugins.Popup.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::Rg.Plugins.Popup.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::Rg.Plugins.Popup.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::Rg.Plugins.Popup.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::Rg.Plugins.Popup.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::Rg.Plugins.Popup.Resource.Animator.design_appbar_state_list_animator = global::Draws.Android.Resource.Animator.design_appbar_state_list_animator;
 			global::Rg.Plugins.Popup.Resource.Animator.design_fab_hide_motion_spec = global::Draws.Android.Resource.Animator.design_fab_hide_motion_spec;
 			global::Rg.Plugins.Popup.Resource.Animator.design_fab_show_motion_spec = global::Draws.Android.Resource.Animator.design_fab_show_motion_spec;
@@ -3852,7 +3840,6 @@ namespace Draws.Android
 			global::Rg.Plugins.Popup.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::Rg.Plugins.Popup.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::Rg.Plugins.Popup.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::Rg.Plugins.Popup.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::Rg.Plugins.Popup.Resource.Layout.browser_actions_context_menu_page = global::Draws.Android.Resource.Layout.browser_actions_context_menu_page;
 			global::Rg.Plugins.Popup.Resource.Layout.browser_actions_context_menu_row = global::Draws.Android.Resource.Layout.browser_actions_context_menu_row;
 			global::Rg.Plugins.Popup.Resource.Layout.custom_dialog = global::Draws.Android.Resource.Layout.custom_dialog;
@@ -3869,9 +3856,6 @@ namespace Draws.Android
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item_subheader = global::Draws.Android.Resource.Layout.design_navigation_item_subheader;
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu = global::Draws.Android.Resource.Layout.design_navigation_menu;
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
-			global::Rg.Plugins.Popup.Resource.Layout.FallbackTabbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Rg.Plugins.Popup.Resource.Layout.FallbackToolbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Rg.Plugins.Popup.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar;
 			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar_include = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar_include;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_action = global::Draws.Android.Resource.Layout.notification_action;
@@ -3889,11 +3873,9 @@ namespace Draws.Android
 			global::Rg.Plugins.Popup.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::Rg.Plugins.Popup.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::Rg.Plugins.Popup.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::Rg.Plugins.Popup.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Rg.Plugins.Popup.Resource.Layout.Tabbar = global::Draws.Android.Resource.Layout.Tabbar;
 			global::Rg.Plugins.Popup.Resource.Layout.Toolbar = global::Draws.Android.Resource.Layout.Toolbar;
@@ -5193,10 +5175,6 @@ namespace Draws.Android
 			global::SkiaSharp.Views.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::SkiaSharp.Views.Forms.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::SkiaSharp.Views.Forms.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::SkiaSharp.Views.Forms.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::SkiaSharp.Views.Forms.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::SkiaSharp.Views.Forms.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::SkiaSharp.Views.Forms.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::SkiaSharp.Views.Forms.Resource.Animator.design_appbar_state_list_animator = global::Draws.Android.Resource.Animator.design_appbar_state_list_animator;
 			global::SkiaSharp.Views.Forms.Resource.Animator.design_fab_hide_motion_spec = global::Draws.Android.Resource.Animator.design_fab_hide_motion_spec;
 			global::SkiaSharp.Views.Forms.Resource.Animator.design_fab_show_motion_spec = global::Draws.Android.Resource.Animator.design_fab_show_motion_spec;
@@ -6391,7 +6369,6 @@ namespace Draws.Android
 			global::SkiaSharp.Views.Forms.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::SkiaSharp.Views.Forms.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::SkiaSharp.Views.Forms.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::SkiaSharp.Views.Forms.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::SkiaSharp.Views.Forms.Resource.Layout.browser_actions_context_menu_page = global::Draws.Android.Resource.Layout.browser_actions_context_menu_page;
 			global::SkiaSharp.Views.Forms.Resource.Layout.browser_actions_context_menu_row = global::Draws.Android.Resource.Layout.browser_actions_context_menu_row;
 			global::SkiaSharp.Views.Forms.Resource.Layout.design_bottom_navigation_item = global::Draws.Android.Resource.Layout.design_bottom_navigation_item;
@@ -6407,7 +6384,6 @@ namespace Draws.Android
 			global::SkiaSharp.Views.Forms.Resource.Layout.design_navigation_item_subheader = global::Draws.Android.Resource.Layout.design_navigation_item_subheader;
 			global::SkiaSharp.Views.Forms.Resource.Layout.design_navigation_menu = global::Draws.Android.Resource.Layout.design_navigation_menu;
 			global::SkiaSharp.Views.Forms.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
-			global::SkiaSharp.Views.Forms.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::SkiaSharp.Views.Forms.Resource.Layout.mtrl_layout_snackbar = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar;
 			global::SkiaSharp.Views.Forms.Resource.Layout.mtrl_layout_snackbar_include = global::Draws.Android.Resource.Layout.mtrl_layout_snackbar_include;
 			global::SkiaSharp.Views.Forms.Resource.Layout.notification_action = global::Draws.Android.Resource.Layout.notification_action;
@@ -6425,11 +6401,9 @@ namespace Draws.Android
 			global::SkiaSharp.Views.Forms.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::SkiaSharp.Views.Forms.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::SkiaSharp.Views.Forms.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::SkiaSharp.Views.Forms.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::SkiaSharp.Views.Forms.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::SkiaSharp.Views.Forms.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::SkiaSharp.Views.Forms.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::SkiaSharp.Views.Forms.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::SkiaSharp.Views.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::SkiaSharp.Views.Forms.Resource.String.abc_action_bar_home_description = global::Draws.Android.Resource.String.abc_action_bar_home_description;
 			global::SkiaSharp.Views.Forms.Resource.String.abc_action_bar_up_description = global::Draws.Android.Resource.String.abc_action_bar_up_description;
@@ -7715,10 +7689,6 @@ namespace Draws.Android
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_close_enter = global::Draws.Android.Resource.Animation.fragment_close_enter;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_close_exit = global::Draws.Android.Resource.Animation.fragment_close_exit;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_fade_enter = global::Draws.Android.Resource.Animation.fragment_fade_enter;
@@ -9385,10 +9355,8 @@ namespace Draws.Android
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::Xamarin.CommunityToolkit.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_page = global::Draws.Android.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_row = global::Draws.Android.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.CommunityToolkit.Resource.Layout.CameraFragment = global::Draws.Android.Resource.Layout.CameraFragment;
 			global::Xamarin.CommunityToolkit.Resource.Layout.custom_dialog = global::Draws.Android.Resource.Layout.custom_dialog;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_navigation_item = global::Draws.Android.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_sheet_dialog = global::Draws.Android.Resource.Layout.design_bottom_sheet_dialog;
@@ -9405,9 +9373,6 @@ namespace Draws.Android
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_end_icon = global::Draws.Android.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_start_icon = global::Draws.Android.Resource.Layout.design_text_input_start_icon;
-			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackTabbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackToolbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Xamarin.CommunityToolkit.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog = global::Draws.Android.Resource.Layout.mtrl_alert_dialog;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_actions = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_actions;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_title = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_title;
@@ -9451,11 +9416,9 @@ namespace Draws.Android
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::Xamarin.CommunityToolkit.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xamarin.CommunityToolkit.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::Xamarin.CommunityToolkit.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.CommunityToolkit.Resource.Layout.Tabbar = global::Draws.Android.Resource.Layout.Tabbar;
 			global::Xamarin.CommunityToolkit.Resource.Layout.test_action_chip = global::Draws.Android.Resource.Layout.test_action_chip;
@@ -11361,10 +11324,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_enter = global::Draws.Android.Resource.Animation.fragment_close_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_exit = global::Draws.Android.Resource.Animation.fragment_close_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_enter = global::Draws.Android.Resource.Animation.fragment_fade_enter;
@@ -13108,7 +13067,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::Draws.Android.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::Draws.Android.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::Draws.Android.Resource.Layout.design_bottom_sheet_dialog;
@@ -13125,9 +13083,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_end_icon = global::Draws.Android.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_start_icon = global::Draws.Android.Resource.Layout.design_text_input_start_icon;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog = global::Draws.Android.Resource.Layout.mtrl_alert_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_actions = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_title = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_title;
@@ -13171,11 +13126,9 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::Draws.Android.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::Draws.Android.Resource.Layout.test_action_chip;
@@ -14986,10 +14939,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::Draws.Android.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::Draws.Android.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out = global::Draws.Android.Resource.Animation.design_snackbar_out;
-			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromLeft = global::Draws.Android.Resource.Animation.EnterFromLeft;
-			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::Draws.Android.Resource.Animation.EnterFromRight;
-			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::Draws.Android.Resource.Animation.ExitToLeft;
-			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::Draws.Android.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_enter = global::Draws.Android.Resource.Animation.fragment_close_enter;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_exit = global::Draws.Android.Resource.Animation.fragment_close_exit;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_enter = global::Draws.Android.Resource.Animation.fragment_fade_enter;
@@ -16733,7 +16682,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_search_view = global::Draws.Android.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::Draws.Android.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::Draws.Android.Resource.Layout.abc_tooltip;
-			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::Draws.Android.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::Draws.Android.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::Draws.Android.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::Draws.Android.Resource.Layout.design_bottom_sheet_dialog;
@@ -16750,9 +16698,6 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::Draws.Android.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_end_icon = global::Draws.Android.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_start_icon = global::Draws.Android.Resource.Layout.design_text_input_start_icon;
-			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::Draws.Android.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::Draws.Android.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog = global::Draws.Android.Resource.Layout.mtrl_alert_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_actions = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_actions;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_title = global::Draws.Android.Resource.Layout.mtrl_alert_dialog_title;
@@ -16796,11 +16741,9 @@ namespace Draws.Android
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_media_custom = global::Draws.Android.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_chronometer = global::Draws.Android.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_time = global::Draws.Android.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Forms.Platform.Resource.Layout.RootLayout = global::Draws.Android.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_item_material = global::Draws.Android.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_multichoice_material = global::Draws.Android.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::Draws.Android.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::Draws.Android.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::Draws.Android.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::Draws.Android.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::Draws.Android.Resource.Layout.test_action_chip;
@@ -18673,16 +18616,16 @@ namespace Draws.Android
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int EnterFromLeft = 2130771996;
+			public const int enterfromleft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int EnterFromRight = 2130771997;
+			public const int enterfromright = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int ExitToLeft = 2130771998;
+			public const int exittoleft = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int ExitToRight = 2130771999;
+			public const int exittoright = 2130771999;
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_close_enter = 2130772000;
@@ -25061,7 +25004,7 @@ namespace Draws.Android
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			public const int bottomtablayout = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
 			public const int browser_actions_context_menu_page = 2131427357;
@@ -25070,7 +25013,7 @@ namespace Draws.Android
 			public const int browser_actions_context_menu_row = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int CameraFragment = 2131427359;
+			public const int camerafragment = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
 			public const int custom_dialog = 2131427360;
@@ -25121,13 +25064,13 @@ namespace Draws.Android
 			public const int design_text_input_start_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackTabbarDoNotUse = 2131427376;
+			public const int fallbacktabbardonotuse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackToolbarDoNotUse = 2131427377;
+			public const int fallbacktoolbardonotuse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FlyoutContent = 2131427378;
+			public const int flyoutcontent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
 			public const int mr_cast_dialog = 2131427379;
@@ -25304,7 +25247,7 @@ namespace Draws.Android
 			public const int notification_template_part_time = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int RootLayout = 2131427437;
+			public const int rootlayout = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
 			public const int select_dialog_item_material = 2131427438;
@@ -25316,7 +25259,7 @@ namespace Draws.Android
 			public const int select_dialog_singlechoice_material = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int ShellContent = 2131427441;
+			public const int shellcontent = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
 			public const int support_simple_spinner_dropdown_item = 2131427442;
