@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:viewModels="clr-namespace:Draws.ViewModels;assembly=Draws"
+    xmlns:controls="clr-namespace:Draws.Controls;assembly=Draws"
+    xmlns:models="clr-namespace:Draws.Models;assembly=Draws"
+    xmlns:fontawesome="clr-namespace:Draws;assembly=Draws"
+    x:Class="Draws.Views.DrawPage"
+    x:DataType="viewModels:DrawPageViewModel"
+    iOsSpecific:Page.UseSafeArea="true"
+    NavigationPage.HasNavigationBar="True"
+    BackgroundColor="{StaticResource VikingColor}">
+
+    <Grid RowDefinitions="Auto, 1, *" RowSpacing="0">
+        
+        <Grid Grid.Row="0" RowDefinitions="40, 70" RowSpacing="10" ColumnDefinitions="*, Auto"
+              Margin="0, 0, 0, 5">
+            <CollectionView
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="10, 0,0,0"
+                VerticalOptions="Start"
+                ItemsSource="{Binding DrawInstrumentsList}"
+                SelectedItem="{Binding SelectedDrawInstrument}"
+                SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Horizontal" HorizontalItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:DrawInstrument">
+                        <controls:DrawInstrumentControl
+                            VerticalOptions="StartAndExpand"
+                            HorizontalOptions="Start"
+                            IsSelected="{Binding IsSelected}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button
+                x:Name="ClearButton"
+                Grid.Row="0"
+                Grid.Column="1"
+                WidthRequest="40"
+                HeightRequest="40"
+                Margin="0,0,10,0"
+                TextColor="{StaticResource BlackColor}"
+                BackgroundColor="Transparent"
+                CornerRadius="0"
+                BorderColor="{StaticResource BlackColor}"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                Text="{x:Static fontawesome:FontAwesomeIcons.Broom}"
+                Padding="1"
+                FontSize="20"
+                FontFamily="{StaticResource AwesomeSolid}"
+                Clicked="OnClearButtonClicked"/>
+            
+            <CollectionView
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10, 0,0,0"
+                VerticalOptions="Start"
+                ItemsSource="{Binding HelpInstrumentsList}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Horizontal" HorizontalItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:HelpInstrument">
+                        <controls:HelpInstrumentControl
+                            VerticalOptions="StartAndExpand"
+                            HorizontalOptions="Start"
+                            Command="{Binding ClickCommand}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        
+        <BoxView
+            Grid.Row="1"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="{StaticResource BlackColor}"/>
+        
+        <forms:SKCanvasView 
+            Grid.Row="2"
+            x:Name="CanvasView"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            PaintSurface="OnCanvasViewPaintSurface"
+            EnableTouchEvents="True"
+            Touch="OnTouch"/>  
+    </Grid>
+</ContentPage>

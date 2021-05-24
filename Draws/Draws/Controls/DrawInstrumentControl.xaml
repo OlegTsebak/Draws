@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:Draws.Models;assembly=Draws"
+    x:Class="Draws.Controls.DrawInstrumentControl"
+    x:DataType="models:DrawInstrument"
+    WidthRequest="40"
+    HeightRequest="40"
+    Padding="1">
+    
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SelectedBackgroundColor">LightGray</Color>
+            <Color x:Key="UnselectedBackgroundColor">#33000000</Color>
+            
+            <Color x:Key="UnselectedBorderColor">#33000000</Color>
+            
+            <Style x:Key="SelectedFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource SelectedBackgroundColor}" />
+                <Setter Property="BorderColor" Value="{Binding SelectedIconColor}" />
+            </Style>
+            
+            <Style x:Key="UnselectedFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource UnselectedBackgroundColor}" />
+                <Setter Property="BorderColor" Value="{StaticResource UnselectedBorderColor}" />
+            </Style>
+            
+            <Style x:Key="SelectedLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+            </Style>
+            
+            <Style x:Key="UnselectedLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="26" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+    
+    <Frame
+        x:Name="ItemFrame"
+        HasShadow="False"
+        CornerRadius="0"
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand"
+        Padding="5"
+        Style="{StaticResource UnselectedFrameStyle}">
+        
+        <Label
+            x:Name="ItemIcon"
+            Text="{Binding Icon}"
+            FontFamily="{StaticResource AwesomeSolid}"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            TextColor="{Binding IconColor}"
+            Style="{StaticResource UnselectedLabelStyle}"/>
+    </Frame>
+</ContentView>

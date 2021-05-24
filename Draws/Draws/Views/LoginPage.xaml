@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModels="clr-namespace:Draws.ViewModels;assembly=Draws"
+    x:DataType="viewModels:LoginPageViewModel"
+    x:Class="Draws.Views.LoginPage"
+    Title="Please, enter your user name">
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Spacing="50">
+            <Entry
+                VerticalOptions="Start"
+                BackgroundColor="LightGray"
+                Margin="20, 0"
+                Placeholder="Enter username"
+                PlaceholderColor="Black"
+                TextColor="Black"
+                Text="{Binding UserName, Mode=TwoWay}"/>
+            
+            <Button
+                VerticalOptions="Start"
+                BackgroundColor="{StaticResource VikingColor}"
+                TextColor="{StaticResource WhiteColor}"
+                HorizontalOptions="Center"
+                Padding="50, 10"
+                Text="Login"
+                Command="{Binding LoginCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

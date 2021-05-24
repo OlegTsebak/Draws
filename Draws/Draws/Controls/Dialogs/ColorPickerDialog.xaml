@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<pages:PopupPage
+    x:Class="Draws.Controls.Dialogs.ColorPickerDialog"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:fontawesome="clr-namespace:Draws;assembly=Draws"
+    xmlns:colorPicker="clr-namespace:ColorPicker;assembly=ColorPicker"
+    CloseWhenBackgroundIsClicked="False">
+
+    <Frame
+        Margin="20"
+        Padding="20, 10"
+        BackgroundColor="White"
+        CornerRadius="6"
+        HasShadow="False"
+        IsClippedToBounds="True"
+        VerticalOptions="Center">
+        <Grid RowSpacing="20" RowDefinitions="30, *, Auto">
+
+            <Button
+                Grid.Row="0"
+                Padding="0"
+                WidthRequest="33"
+                CornerRadius="0"
+                BackgroundColor="Transparent"
+                Text="{x:Static fontawesome:FontAwesomeIcons.Times}"
+                FontFamily="{StaticResource AwesomeSolid}"
+                FontSize="18"
+                TextColor="{StaticResource BlackColorTransparent80}"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="End"
+                Clicked="OnClose"/>
+
+            <Label 
+                x:Name="TitleLabel"
+                Grid.Row="0" 
+                HeightRequest="22" 
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center"
+                Text="Title"
+                InputTransparent="True"/>
+
+            <colorPicker:ColorWheel
+                x:Name="ColorPicker"
+                Grid.Row="1"
+                ShowAlphaSlider="true"
+                ShowLuminositySlider="true"
+                ShowLuminosityWheel="true"
+                IsVisible="true"
+                Vertical="true"/>
+
+            <!-- Buttons -->
+            <Button
+                x:Name="AcceptButton"
+                Grid.Row="2"
+                BackgroundColor="{StaticResource VikingColor}"
+                FontSize="14"
+                TextColor="{StaticResource WhiteColor}"
+                Text="Select"
+                Clicked="OnAccept" />
+        </Grid>
+    </Frame>
+</pages:PopupPage>

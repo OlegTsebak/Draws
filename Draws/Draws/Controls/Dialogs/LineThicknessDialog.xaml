@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="http://rotorgames.com"
+    xmlns:fontawesome="clr-namespace:Draws;assembly=Draws"
+    x:Class="Draws.Controls.Dialogs.LineThicknessDialog"
+    CloseWhenBackgroundIsClicked="False">
+    
+    <Frame
+        Margin="20"
+        Padding="20, 10"
+        BackgroundColor="White"
+        CornerRadius="6"
+        HasShadow="False"
+        IsClippedToBounds="True"
+        VerticalOptions="Center">
+        <Grid RowSpacing="20" RowDefinitions="30, Auto, Auto, Auto">
+
+            <Button
+                Grid.Row="0"
+                Padding="0"
+                WidthRequest="33"
+                CornerRadius="0"
+                BackgroundColor="Transparent"
+                Text="{x:Static fontawesome:FontAwesomeIcons.Times}"
+                FontFamily="{StaticResource AwesomeSolid}"
+                FontSize="18"
+                TextColor="{StaticResource BlackColorTransparent80}"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="End"
+                Clicked="OnClose"/>
+
+            <Label 
+                x:Name="TitleLabel"
+                Grid.Row="0" 
+                HeightRequest="22" 
+                VerticalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Title"
+                InputTransparent="True"/>
+            
+            <Slider 
+                x:Name="Slider"
+                Grid.Row="1"
+                Maximum="72"
+                Minimum="1"
+                MinimumTrackColor="Black"
+                MaximumTrackColor="Black"
+                ValueChanged="OnSliderValueChanged" />
+            
+            <Grid Grid.Row="2" RowDefinitions="Auto, Auto">
+                <Label
+                    x:Name="LineThicknessLabel"
+                    FontSize="16"/>
+                
+                <BoxView
+                    x:Name="LineThicknessBox"
+                    Grid.Row="2"
+                    MinimumHeightRequest="1"/>
+            </Grid>
+
+            <!-- Buttons -->
+            <Button
+                x:Name="AcceptButton"
+                Grid.Row="3"
+                BackgroundColor="{StaticResource VikingColor}"
+                FontSize="14"
+                TextColor="{StaticResource WhiteColor}"
+                Text="Select"
+                Clicked="OnAccept" />
+        </Grid>
+    </Frame>
+</pages:PopupPage>

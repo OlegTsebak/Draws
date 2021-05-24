@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
+    x:Class="Draws.App">
+    
+    <Application.Resources>
+        
+        <!--  Colors  -->
+        <Color x:Key="BlackColor">#000000</Color>
+        <Color x:Key="BlackColorTransparent20">#33000000</Color>
+        <Color x:Key="BlackColorTransparent30">#4D000000</Color>
+        <Color x:Key="BlackColorTransparent60">#99000000</Color>
+        <Color x:Key="BlackColorTransparent80">#CC000000</Color>
+        <Color x:Key="WhiteColor">#FFFFFF</Color>
+        <Color x:Key="WhiteColorTransparent80">#CCFFFFFF</Color>
+        <Color x:Key="WhiteSmokeColor">#F6F9FB</Color>
+        <Color x:Key="BrightGreyColor">#58595B</Color>
+        <Color x:Key="BrightGreyColorTransparent50">#8058595B</Color>
+        <Color x:Key="CrimsonColor">#ED1C24</Color>
+        <Color x:Key="VikingColor">#53B4C1</Color>
+        <Color x:Key="SaffronColor">#FABF2E</Color>
+        <Color x:Key="PumpkinColor">#F26522</Color>
+        <Color x:Key="MalachiteColor">#0FB247</Color>
+        <Color x:Key="BlueRibbonColor">#0057FF</Color>
+        <Color x:Key="ElementDisabledColor">#A5A5A5</Color>
+        <Color x:Key="ElementDisabledColorTransparent70">#B3A5A5A5</Color>
+        <Color x:Key="ButtonDisabledColor">#D7D7D7</Color>
+        
+        <!--  Font families  -->
+        <OnPlatform x:Key="AwesomeRegular" x:TypeArguments="x:String">
+            <On Platform="iOS">FontAwesome5Free-Regular</On>
+            <On Platform="Android">Fonts/Awesome-Regular.otf#Awesome</On>
+        </OnPlatform>
+
+        <OnPlatform x:Key="AwesomeSolid" x:TypeArguments="x:String">
+            <On Platform="iOS">FontAwesome5Free-Solid</On>
+            <On Platform="Android">Fonts/Awesome-Solid.otf#Awesome</On>
+        </OnPlatform>
+        
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{StaticResource VikingColor}" />
+        </Style>
+    </Application.Resources>
+</prism:PrismApplication>

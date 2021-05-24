@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:Draws.Models;assembly=Draws"
+    x:Class="Draws.Controls.HelpInstrumentControl"
+    x:DataType="models:HelpInstrument"
+    WidthRequest="70"
+    VerticalOptions="FillAndExpand"
+    HorizontalOptions="StartAndExpand"
+    Padding="2"
+    BackgroundColor="#33000000">
+    
+    <Grid RowDefinitions="Auto, *" RowSpacing="3" VerticalOptions="FillAndExpand">
+        <Frame
+            Grid.Row="0"
+            HasShadow="False"
+            CornerRadius="0"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            WidthRequest="40"
+            HeightRequest="40"
+            Padding="0"
+            BackgroundColor="Transparent">
+        
+            <Label
+                x:Name="ItemIcon"
+                Text="{Binding Icon}"
+                FontFamily="{StaticResource AwesomeSolid}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="{Binding IconColor}"
+                FontSize="30"/>
+        </Frame>
+        
+        <Label
+            Grid.Row="1"
+            Text="{Binding Text}"
+            FontSize="12"
+            VerticalOptions="Center"
+            HorizontalOptions="FillAndExpand"
+            HorizontalTextAlignment="Center"/>
+    </Grid>
+    
+    <ContentView.GestureRecognizers>
+        <TapGestureRecognizer Tapped="OnHelpInstrumentClicked"/>
+    </ContentView.GestureRecognizers>
+</ContentView>
